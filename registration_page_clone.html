@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>FeRoom - Blog</title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/styles.min.css">
+
+
+</head>
+
+<body>
+
+
+	<section class="user_registration">
+		<div class="container">
+			<h2 class="block_title">Реєстрація</h2>
+			<div class="buttons choose_type">
+				<input type="checkbox" class="registration">
+				<div class="wrap_buttons">
+					<button class="button">Виконавець</button>
+					<button class="button">Клієнт</button>
+				</div>
+
+			</div>
+			<div class="wrap_registration_form">
+				<div class="registration_executant active">
+					<form id="register_executant_form" action="#">
+					    <div>
+					        <h3></h3>
+					        <section class="wrap_register_block">
+					        	<div class="about_executant">
+						  			<img src="images/laborers.png" alt="">
+						    		<span class="title">Ви реєструєтесь як <br><span class="bold">виконавець</span></span>
+						    		<span class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vero sint quo soluta fugit dolorem illo culpa, in iste optio.</span>
+						  		</div>
+						  		<div class="form_body">
+						            <label for="executantPhoneNumber">Номер телефону *</label>
+						            <input id="executantPhoneNumber" name="userName" type="text" class="required" placeholder="+38 050 123 4567">
+						            <label for="executantEmail">Email *</label>
+						            <input id="executantEmail" name="email" type="text" class="email" class="required email" placeholder="example@gmail.com">
+						            <label for="executantpassword">Пароль *</label>
+						            <input id="executantPassword" name="password"  type="password" class="required" placeholder="12345678">
+						            <label for="executantConfirm">Підтвердження паролю *</label>
+						            <input id="executantConfirm" name="confirm"  type="password" class="required" placeholder="12345678">
+									<a class="yellow_button button next_button">Наступний крок</a>
+						        </div>
+					        </section>
+					        <h3></h3>
+					        <section class="wrap_register_block">
+					        	<div class="about_executant">
+						  			<img src="images/laborers.png" alt="">
+						    		<span class="title">Ви реєструєтесь як <br><span class="bold">виконавець</span></span>
+						    		<span class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vero sint quo soluta fugit dolorem illo culpa, in iste optio.</span>
+						    		<label for="executantAcceptTerms"><input id="executantAcceptTerms" name="acceptTerms" type="checkbox" class="required"> Ознайомлений із <a href="#" class="terms_condition">правилами та умовами проекту</a></label>
+						  		</div>
+								<div class="form_body">
+						            <label>Тип</label>
+						            <select name="" class="worker_type">
+										<option value="type">Виберіть тип</option>
+										<option value="master">Майстер</option>
+										<option value="master">Майстер</option>
+										<option value="master">Майстер</option>
+									</select>
+						            <label>Основний вид діяльності</label>
+						            <select name="" class="main_type_activity">
+										<option value="">Електрика</option>
+										<option value="">Електрика</option>
+									</select>
+						            <label for="contact_executant">Контактне лице</label>
+						            <input id="contact_executant" type="text" class="contact_person" placeholder="Севрук Григорій Степанович">
+						            <label for="executantAddress">Регіон</label>
+						            <input id="executantAddress" name="address" type="text" placeholder="Львів, Львівська обл.">
+						            <a class="yellow_button button done_button">Зареєструватись</a>
+						        </div>
+					        </section>
+					        <h3></h3>
+					        <section class="wrap_register_block">
+					            <div class="about_executant center">
+						  			<img src="images/laborers.png" alt="">
+						    		<span class="title">Вітаємо, Ви успішно зареєструвалися як <br><span class="bold">виконавець</span></span>
+						    		<span class="subtitle">Ми надіслали Вам лист підтвердження за <br>адресою example@gmail.com</span>
+						    		<a href="index.html">На головну</a>
+						  		</div>
+					        </section>
+					    </div>
+					</form>
+				</div>
+				<div class="registration_client">
+					<form id="register_client_form" action="#">
+						<div>
+					        <h3></h3>
+					        <section class="wrap_register_block">
+					        	<div class="about_executant">
+						  			<img src="images/man.png" alt="">
+						    		<span class="title">Ви реєструєтесь як <br><span class="bold">клієнт</span></span>
+						    		<span class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vero sint quo soluta fugit dolorem illo culpa, in iste optio.</span>
+						  		</div>
+						  		<div class="form_body">
+						            <label for="clientPhoneNumber">Номер телефону *</label>
+						            <input id="clientPhoneNumber" name="userName" type="text" class="required" placeholder="+38 050 123 4567">
+						            <label for="clientEmail">Email *</label>
+						            <input id="clientEmail" name="email" type="text" class="email" class="required email" placeholder="example@gmail.com">
+						            <label for="clientPassword">Пароль *</label>
+						            <input id="clientPassword" name="password"  type="password" class="required" placeholder="12345678">
+						            <label for="clientConfirm">Підтвердження паролю *</label>
+						            <input id="clientConfirm" name="confirm"  type="password" class="required" placeholder="12345678">
+						            <a class="yellow_button button next_button">Наступний крок</a>
+						        </div>
+					        </section>
+					        <h3></h3>
+					        <section class="wrap_register_block">
+					        	<div class="about_executant">
+						  			<img src="images/man.png" alt="">
+						    		<span class="title">Ви реєструєтесь як <br><span class="bold">клієнт</span></span>
+						    		<span class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vero sint quo soluta fugit dolorem illo culpa, in iste optio.</span>
+						    		<label for="clientAcceptTerms"><input id="clientAcceptTerms" name="acceptTerms" type="checkbox" > Ознайомлений із <a href="#" class="terms_condition">правилами та умовами проекту</a></label>
+						  		</div>
+								<div class="form_body">
+						            <label for="contact_client">Контактне лице</label>
+						            <input id="contact_client" type="text" class="contact_person" placeholder="Севрук Григорій Степанович">
+						            <label for="clientAddress">Регіон</label>
+						            <input id="clientAddress" name="address" type="text" class="required" placeholder="Львів, Львівська обл.">
+						            <a class="yellow_button button done_button">Зареєструватись</a>
+						        </div>
+					        </section>
+					        <h3></h3>
+					        <section class="wrap_register_block">
+					            <div class="about_executant center">
+						  			<img src="images/man.png" alt="">
+						    		<span class="title">Вітаємо, Ви успішно зареєструвалися як <br><span class="bold">клієнт</span></span>
+						    		<span class="subtitle">Ми надіслали Вам лист підтвердження за <br>адресою example@gmail.com</span>
+						    		<a href="index.html">На головну</a>
+						  		</div>
+								
+					        </section>
+					    </div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	<script src="js/vendors/jquery-1.12.2.min.js"></script>
+	<script src="js/vendors/custom-select.min.js"></script>
+	<script src="js/vendors/jquery.steps.min.js"></script>
+	<script src="js/vendors/slick.min.js"></script>
+	<script src="js/script00.js"></script>
+	
+	<script>
+		var form = $("#register_executant_form, #register_client_form");
+		// form.validate({
+		//     errorPlacement: function errorPlacement(error, element) { element.before(error); },
+		//     rules: {
+		//         confirm: {
+		//             equalTo: "#password"
+		//         }
+		//     }
+		// });
+		form.children("div").steps({
+		    headerTag: "h3",
+		    bodyTag: "section",
+		    // transitionEffect: "slideLeft",
+		    // onStepChanging: function (event, currentIndex, newIndex)
+		    // {
+		    //     form.validate().settings.ignore = ":disabled,:hidden";
+		    //     return form.valid();
+		    // },
+		    // onFinishing: function (event, currentIndex)
+		    // {
+		    //     form.validate().settings.ignore = ":disabled";
+		    //     return form.valid();
+		    // },
+		    onFinished: function (event, currentIndex)
+		    {
+		        alert("Submitted!");
+		    }
+		});
+	</script>
+	<script>
+		if (typeof require !== 'undefined') {
+        var customSelect = require("custom-select").default;
+        console.log(123)
+	    }
+	    const mySelects = customSelect("select");
+	    console.log(mySelects);
+	</script>
+</body>
+</html>

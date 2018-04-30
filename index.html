@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>FeRoom</title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/styles.min.css">
+
+
+</head>
+
+<body>
+	<header class="main-header">
+		<div class="menu_desktop">
+			<nav class="header-content">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt=""></a>
+				</div>
+				<ul class="main-menu">
+					<li><a href="#how_to_work">як це працює</a></li>
+					<li><a href="#">про нас</a></li>
+					<li><a href="#search">пошук</a></li>
+					<li><a href="blog_page.html">блог</a></li>
+					<li><a href="#sale_rent">нерухомість</a></li>
+					<li><a href="#how_to_work">оцінка</a></li>
+					<li><a href="#footer">контакти</a></li>
+				</ul>
+				<div class="user-room">
+					<a href="#" class="room-link"><i class="fas fa-user"></i>Мій кабінет</a>
+				</div>
+				<div class="lang_location">
+					<div class="lang">
+						<select name="" id="" class="lang">
+							<option value="ukr">Укр</option>
+							<option value="eng">Eng</option>
+							<option value="pol">Pol</option>
+							<option value="deu">Deu</option>
+						</select>
+						<i class="fas fa-chevron-down"></i>
+					</div>
+					<div class="location">
+						<i class="fas fa-map-marker-alt"></i>
+						<i class="fas fa-chevron-down"></i>
+						<div class="wrap_current_location">
+							<i class="fas fa-map-marker-alt"></i>
+							<span class="current_location">Івано-Франківська обл.</span>
+							<span class="change_location">змінити</span>
+						</div>
+					</div>
+
+					<!-- <select name="" id="" class="location">
+						<option value="">Львів, Україна</option>
+						<option value="">Івано-Франківськ, Україна</option>
+					</select> -->
+				</div>
+			</nav>
+		</div>
+		<div class="menu_mobile">
+			<div class="wrap_menu">
+				<div class="logo">
+					<img src="images/logo.png" alt="">
+				</div>
+				<div class="burg">
+		            <a href="#">
+		                <span class="bar top"></span>
+		                <span class="bar middle"></span>
+		                <span class="bar bottom"></span>
+		            </a>
+		        </div>
+			</div>
+			<nav class="header-content">
+				<ul class="main-menu">
+					<li><a href="#how_to_work">як це працює</a></li>
+					<li><a href="#">про нас</a></li>
+					<li><a href="#search">пошук</a></li>
+					<li><a href="blog_page.html">блог</a></li>
+					<li><a href="#sale_rent">нерухомість</a></li>
+					<li><a href="#how_to_work">оцінка</a></li>
+					<li><a href="#footer">контакти</a></li>
+				</ul>
+				<div class="user-room">
+					<a href="#" class="room-link">Мій кабінет</a>
+				</div>
+				<div class="lang_location">
+					<div class="lang">
+						<select name="" id="" class="lang">
+							<option value="ukr">Укр</option>
+							<option value="eng">Eng</option>
+							<option value="pol">Pol</option>
+							<option value="deu">Deu</option>
+						</select>
+						<i class="fas fa-chevron-down"></i>
+					</div>
+					<div class="location">
+						<select name="" id="" class="location">
+							<option value="">Львів, Україна</option>
+							<option value="">Івано-Франківськ, Україна</option>
+						</select>
+						<i class="fas fa-chevron-down"></i>
+					</div>
+					
+				</div>
+			</nav>
+		</div>
+	</header>
+	
+	<section class="banner" id="search">
+		<div class="container">
+			<h2 class="block_title">FeRoom - від проекту до реалізації</h2>
+			<div class="buttons choose_type">
+				<input type="checkbox">
+				<div class="wrap_buttons">
+					<button class="button">Виконавець</button>
+					<button class="button">Клієнт</button>
+				</div>
+			</div>
+			<form action="" class="search-content">
+				<select name="" id="">
+					<option value="">Виберіть місто</option>
+				</select>
+				<select name="" id="">
+					<option value="">Виберіть категорію</option>
+				</select>
+				<a class="yellow_button button">Знайти</a>
+			</form>
+		</div>
+	</section>
+
+	<section class="offers">
+		<div class="container">
+			<div class="slider horizontal">
+				<div class="wrap_block">
+					<div class="block_item">
+						<div class="block_descr">
+							<div class="block_descr_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="block_descr_price">$270</div>
+						</div>
+						<span class="block_date">Feb 08 2018</span>
+						<hr>
+						<div class="add_info">
+							<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+							<div class="buttons">
+								<a class="read_more button">Read more</>
+								<a class="yellow_button button">Take it</a>
+							</div>
+						</div>
+					</div>
+					<div class="block_item">
+						<div class="block_descr">
+							<div class="block_descr_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="block_descr_price">$270</div>
+						</div>
+						<span class="block_date">Feb 08 2018</span>
+						<hr>
+						<div class="add_info">
+							<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+							<div class="buttons">
+								<a class="read_more button">Read more</>
+								<a class="yellow_button button">Take it</a>
+							</div>
+						</div>
+					</div>
+					<div class="block_item">
+						<div class="block_descr">
+							<div class="block_descr_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="block_descr_price">$270</div>
+						</div>
+						<span class="block_date">Feb 08 2018</span>
+						<hr>
+						<div class="add_info">
+							<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+							<div class="buttons">
+								<a class="read_more button">Read more</>
+								<a class="yellow_button button">Take it</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wrap_block">
+					<div class="block_item">
+						<div class="block_descr">
+							<div class="block_descr_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="block_descr_price">$270</div>
+						</div>
+						<span class="block_date">Feb 08 2018</span>
+						<hr>
+						<div class="add_info">
+							<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+							<div class="buttons">
+								<a class="read_more button">Read more</>
+								<a class="yellow_button button">Take it</a>
+							</div>
+						</div>
+					</div>
+					<div class="block_item">
+						<div class="block_descr">
+							<div class="block_descr_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="block_descr_price">$270</div>
+						</div>
+						<span class="block_date">Feb 08 2018</span>
+						<hr>
+						<div class="add_info">
+							<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+							<div class="buttons">
+								<a class="read_more button">Read more</>
+								<a class="yellow_button button">Take it</a>
+							</div>
+						</div>
+					</div>
+					<div class="block_item">
+						<div class="block_descr">
+							<div class="block_descr_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="block_descr_price">$270</div>
+						</div>
+						<span class="block_date">Feb 08 2018</span>
+						<hr>
+						<div class="add_info">
+							<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+							<div class="buttons">
+								<a class="read_more button">Read more</>
+								<a class="yellow_button button">Take it</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wrap_block">
+					<div class="block_item">
+						<div class="block_descr">
+							<div class="block_descr_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="block_descr_price">$270</div>
+						</div>
+						<span class="block_date">Feb 08 2018</span>
+						<hr>
+						<div class="add_info">
+							<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+							<div class="buttons">
+								<a class="read_more button">Read more</>
+								<a class="yellow_button button">Take it</a>
+							</div>
+						</div>
+					</div>
+					<div class="block_item">
+						<div class="block_descr">
+							<div class="block_descr_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="block_descr_price">$270</div>
+						</div>
+						<span class="block_date">Feb 08 2018</span>
+						<hr>
+						<div class="add_info">
+							<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+							<div class="buttons">
+								<a class="read_more button">Read more</>
+								<a class="yellow_button button">Take it</a>
+							</div>
+						</div>
+					</div>
+					<div class="block_item">
+						<div class="block_descr">
+							<div class="block_descr_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="block_descr_price">$270</div>
+						</div>
+						<span class="block_date">Feb 08 2018</span>
+						<hr>
+						<div class="add_info">
+							<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+							<div class="buttons">
+								<a class="read_more button">Read more</>
+								<a class="yellow_button button">Take it</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wrap_block">
+					<div class="block_item">
+						<div class="block_descr">
+							<div class="block_descr_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="block_descr_price">$270</div>
+						</div>
+						<span class="block_date">Feb 08 2018</span>
+						<hr>
+						<div class="add_info">
+							<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+							<div class="buttons">
+								<a class="read_more button">Read more</>
+								<a class="yellow_button button">Take it</a>
+							</div>
+						</div>
+					</div>
+					<div class="block_item">
+						<div class="block_descr">
+							<div class="block_descr_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="block_descr_price">$270</div>
+						</div>
+						<span class="block_date">Feb 08 2018</span>
+						<hr>
+						<div class="add_info">
+							<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+							<div class="buttons">
+								<a class="read_more button">Read more</>
+								<a class="yellow_button button">Take it</a>
+							</div>
+						</div>
+					</div>
+					<div class="block_item">
+						<div class="block_descr">
+							<div class="block_descr_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+							<div class="block_descr_price">$270</div>
+						</div>
+						<span class="block_date">Feb 08 2018</span>
+						<hr>
+						<div class="add_info">
+							<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+							<div class="buttons">
+								<a class="read_more button">Read more</>
+								<a class="yellow_button button">Take it</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="buttons">
+				<a class="show_more button">Більше</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="about_project" id="blog">
+		<div class="container">
+			<h2 class="block_title">Життя проекту</h2>
+			<div class="wrap_history">
+				<div class="history_item blog">
+					<h3 class="block_title">Блог</h3>
+					<span class="short_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+					<div class="buttons"><a class="read_more button">Детальніше</a></div>
+				</div>
+				<div class="history_item about">
+					<h3 class="block_title">Про проект</h3>
+					<span class="short_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+					<div class="buttons"><a class="read_more button">Детальніше</a></div>
+				</div>
+				<div class="history_item question">
+					<h3 class="block_title">Маєте питання?</h3>
+					<span class="short_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+					<div class="buttons"><a class="read_more button">Детальніше</a></div>
+				</div>
+				<div class="history_item rating">
+					<h3 class="block_title">Оцінка</h3>
+					<span class="short_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+					<div class="buttons"><a class="read_more button">Детальніше</a></div>
+				</div>
+				<div class="our_links">
+					<h3 class="block_title">Ми у соціальних мережах</h3>
+					<ul class="socials">
+						<li><a href="#" class="fb"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#" class="inst"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#" class="tw"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="how_to_work" id="how_to_work">
+		<div class="container">
+			<h2 class="block_title">Як це працює?</h2>
+			<div class="wrap_section">
+				<div class="executant">
+					<div class="act_item">
+						<img src="images/laborers.png" alt="">
+						<span class="main_title">Якщо Ви<br><span class="bold">виконавець</span></span>
+					</div>
+					<div class="act_item">
+						<img src="images/test.png" alt="">
+						<span>Вибираєте завдання<br>
+						та зв’язуєтесь з клієнтом</span>
+					</div>
+					<div class="act_item">
+						<img src="images/wrench.png" alt="">
+						<span>Вчасно<br>
+						виконуєте роботу</span>
+					</div>
+					<div class="act_item">
+						<img src="images/payment-method.png" alt="">
+						<span>Отримуєте оплату<br>
+						та відгуки</span>
+					</div>
+				</div>
+				<div class="client">
+					<div class="act_item">
+						<img src="images/man.png" alt="">
+						<span class="main_title">Якщо Ви<br><span class="bold">клієнт</span></span>
+					</div>
+					<div class="act_item">
+						<img src="images/test.png" alt="">
+						<span>Створюєте завдання<br>
+						та вибираєте виконавця</span>
+					</div>
+					<div class="act_item">
+						<img src="images/wrench.png" alt="">
+						<span>Отримуєте вчасно<br>
+						виконану роботу</span>
+					</div>
+					<div class="act_item">
+						<img src="images/payment-method.png" alt="">
+						<span>Оплачуєте роботу<br>
+						та формуєте відгук</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="subscription">
+		<div class="container">
+			<h2 class="block_title">Підпишіться, щоб стежити за оновленнями</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+			<form action="" class="subscribe">
+				<input type="email" placeholder="Введіть ваш email">
+				<button class="yellow_button button">Підписатись</button>
+			</form>
+		</div>
+	</section>
+
+	<section class="sale_rent" id="sale_rent">
+		<div class="container">
+			<div class="wrap_section">
+				<div class="sale">
+					<h2 class="block_title">Продаж</h2>
+					<div class="slider vertical">
+						<div class="block_item">
+							<div class="block_descr">
+								<div class="block_descr_title">Продаж квартири, 1 кім., Львів, р-н. Фра</div>
+								<div class="block_descr_price">$27000</div>
+							</div>
+							<div class="block_descr_detals">
+								<div class="detals_item">Кімнат: <span class="value">1</:span></div>
+								<div class="detals_item">Поверх: <span class="value">8/10</span></div>
+								<div class="detals_item">Площа: <span class="value">55.9 m</span></div>
+								<div class="detals_item">Тип: <span class="value">вторинний ринок</span></div>
+							</div>
+							<span class="block_date">Feb 08 2018</span>
+							<hr>
+							<div class="add_info">
+								<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+								<div class="buttons">
+									<a class="read_more button">Read more</>
+									<a class="yellow_button button">Take it</a>
+								</div>
+							</div>
+						</div>
+						<div class="block_item">
+							<div class="block_descr">
+								<div class="block_descr_title">Продаж квартири, 1 кім., Львів, р-н. Фра</div>
+								<div class="block_descr_price">$27000</div>
+							</div>
+							<div class="block_descr_detals">
+								<div class="detals_item">Кімнат: <span class="value">1</:span></div>
+								<div class="detals_item">Поверх: <span class="value">8/10</span></div>
+								<div class="detals_item">Площа: <span class="value">55.9 m</span></div>
+								<div class="detals_item">Тип: <span class="value">вторинний ринок</span></div>
+							</div>
+							<span class="block_date">Feb 08 2018</span>
+							<hr>
+							<div class="add_info">
+								<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+								<div class="buttons">
+									<a class="read_more button">Read more</>
+									<a class="yellow_button button">Take it</a>
+								</div>
+							</div>
+						</div>
+						<div class="block_item">
+							<div class="block_descr">
+								<div class="block_descr_title">Продаж квартири, 1 кім., Львів, р-н. Фра</div>
+								<div class="block_descr_price">$27000</div>
+							</div>
+							<div class="block_descr_detals">
+								<div class="detals_item">Кімнат: <span class="value">1</:span></div>
+								<div class="detals_item">Поверх: <span class="value">8/10</span></div>
+								<div class="detals_item">Площа: <span class="value">55.9 m</span></div>
+								<div class="detals_item">Тип: <span class="value">вторинний ринок</span></div>
+							</div>
+							<span class="block_date">Feb 08 2018</span>
+							<hr>
+							<div class="add_info">
+								<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+								<div class="buttons">
+									<a class="read_more button">Read more</>
+									<a class="yellow_button button">Take it</a>
+								</div>
+							</div>
+						</div>
+						<div class="block_item">
+							<div class="block_descr">
+								<div class="block_descr_title">Продаж квартир, 1 кім., Львів, р-н. Фра</div>
+								<div class="block_descr_price">$27000</div>
+							</div>
+							<div class="block_descr_detals">
+								<div class="detals_item">Кімнат: <span class="value">1</:span></div>
+								<div class="detals_item">Поверх: <span class="value">8/10</span></div>
+								<div class="detals_item">Площа: <span class="value">55.9 m</span></div>
+								<div class="detals_item">Тип: <span class="value">вторинний ринок</span></div>
+							</div>
+							<span class="block_date">Feb 08 2018</span>
+							<hr>
+							<div class="add_info">
+								<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+								<div class="buttons">
+									<a class="read_more button">Read more</>
+									<a class="yellow_button button">Take it</a>
+								</div>
+							</div>
+						</div>
+						<div class="block_item">
+							<div class="block_descr">
+								<div class="block_descr_title">Продаж квартир, 1 кім., Львів, р-н. Фра</div>
+								<div class="block_descr_price">$27000</div>
+							</div>
+							<div class="block_descr_detals">
+								<div class="detals_item">Кімнат: <span class="value">1</:span></div>
+								<div class="detals_item">Поверх: <span class="value">8/10</span></div>
+								<div class="detals_item">Площа: <span class="value">55.9 m</span></div>
+								<div class="detals_item">Тип: <span class="value">вторинний ринок</span></div>
+							</div>
+							<span class="block_date">Feb 08 2018</span>
+							<hr>
+							<div class="add_info">
+								<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+								<div class="buttons">
+									<a class="read_more button">Read more</>
+									<a class="yellow_button button">Take it</a>
+								</div>
+							</div>
+						</div>
+						<div class="block_item">
+							<div class="block_descr">
+								<div class="block_descr_title">Продаж квартир, 1 кім., Львів, р-н. Фра</div>
+								<div class="block_descr_price">$27000</div>
+							</div>
+							<div class="block_descr_detals">
+								<div class="detals_item">Кімнат: <span class="value">1</:span></div>
+								<div class="detals_item">Поверх: <span class="value">8/10</span></div>
+								<div class="detals_item">Площа: <span class="value">55.9 m</span></div>
+								<div class="detals_item">Тип: <span class="value">вторинний ринок</span></div>
+							</div>
+							<span class="block_date">Feb 08 2018</span>
+							<hr>
+							<div class="add_info">
+								<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="offer_author_rating">4,8/5</span></div>
+								<div class="buttons">
+									<a class="read_more button">Read more</>
+									<a class="yellow_button button">Take it</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rent">
+					<h2 class="block_title">Оренда</h2>
+					<div class="slider vertical">
+						<div class="block_item">
+							<div class="block_descr">
+								<div class="block_descr_title">Оренда квартири, 1 кім., Львів, р-н. Фра</div>
+								<div class="block_descr_price">$270</div>
+							</div>
+							<div class="block_descr_detals">
+								<div class="detals_item">Кімнат: <span class="value">1</:span></div>
+								<div class="detals_item">Поверх: <span class="value">8/10</span></div>
+								<div class="detals_item">Площа: <span class="value">55.9 m</span></div>
+								<div class="detals_item">Тип: <span class="value">вторинний ринок</span></div>
+							</div>
+							<span class="block_date">Feb 08 2018</span>
+							<hr>
+							<div class="add_info">
+								<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+								<div class="buttons">
+									<a class="read_more button">Read more</>
+									<a class="yellow_button button">Take it</a>
+								</div>
+							</div>
+						</div>
+						<div class="block_item">
+							<div class="block_descr">
+								<div class="block_descr_title">Оренда квартири, 1 кім., Львів, р-н. Фра</div>
+								<div class="block_descr_price">$270</div>
+							</div>
+							<div class="block_descr_detals">
+								<div class="detals_item">Кімнат: <span class="value">1</:span></div>
+								<div class="detals_item">Поверх: <span class="value">8/10</span></div>
+								<div class="detals_item">Площа: <span class="value">55.9 m</span></div>
+								<div class="detals_item">Тип: <span class="value">вторинний ринок</span></div>
+							</div>
+							<span class="block_date">Feb 08 2018</span>
+							<hr>
+							<div class="add_info">
+								<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+								<div class="buttons">
+									<a class="read_more button">Read more</>
+									<a class="yellow_button button">Take it</a>
+								</div>
+							</div>
+						</div>
+						<div class="block_item">
+							<div class="block_descr">
+								<div class="block_descr_title">Оренда квартири, 1 кім., Львів, р-н. Фра</div>
+								<div class="block_descr_price">$270</div>
+							</div>
+							<div class="block_descr_detals">
+								<div class="detals_item">Кімнат: <span class="value">1</:span></div>
+								<div class="detals_item">Поверх: <span class="value">8/10</span></div>
+								<div class="detals_item">Площа: <span class="value">55.9 m</span></div>
+								<div class="detals_item">Тип: <span class="value">вторинний ринок</span></div>
+							</div>
+							<span class="block_date">Feb 08 2018</span>
+							<hr>
+							<div class="add_info">
+								<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+								<div class="buttons">
+									<a class="read_more button">Read more</>
+									<a class="yellow_button button">Take it</a>
+								</div>
+							</div>
+						</div>
+						<div class="block_item">
+							<div class="block_descr">
+								<div class="block_descr_title">Оренда квартири, 1 кім., Львів, р-н. Фра</div>
+								<div class="block_descr_price">$270</div>
+							</div>
+							<div class="block_descr_detals">
+								<div class="detals_item">Кімнат: <span class="value">1</:span></div>
+								<div class="detals_item">Поверх: <span class="value">8/10</span></div>
+								<div class="detals_item">Площа: <span class="value">55.9 m</span></div>
+								<div class="detals_item">Тип: <span class="value">вторинний ринок</span></div>
+							</div>
+							<span class="block_date">Feb 08 2018</span>
+							<hr>
+							<div class="add_info">
+								<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+								<div class="buttons">
+									<a class="read_more button">Read more</>
+									<a class="yellow_button button">Take it</a>
+								</div>
+							</div>
+						</div>
+						<div class="block_item">
+							<div class="block_descr">
+								<div class="block_descr_title">Оренда квартири, 1 кім., Львів, р-н. Фра</div>
+								<div class="block_descr_price">$270</div>
+							</div>
+							<div class="block_descr_detals">
+								<div class="detals_item">Кімнат: <span class="value">1</:span></div>
+								<div class="detals_item">Поверх: <span class="value">8/10</span></div>
+								<div class="detals_item">Площа: <span class="value">55.9 m</span></div>
+								<div class="detals_item">Тип: <span class="value">вторинний ринок</span></div>
+							</div>
+							<span class="block_date">Feb 08 2018</span>
+							<hr>
+							<div class="add_info">
+								<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+								<div class="buttons">
+									<a class="read_more button">Read more</>
+									<a class="yellow_button button">Take it</a>
+								</div>
+							</div>
+						</div>
+						<div class="block_item">
+							<div class="block_descr">
+								<div class="block_descr_title">Оренда квартири, 1 кім., Львів, р-н. Фра</div>
+								<div class="block_descr_price">$270</div>
+							</div>
+							<div class="block_descr_detals">
+								<div class="detals_item">Кімнат: <span class="value">1</:span></div>
+								<div class="detals_item">Поверх: <span class="value">8/10</span></div>
+								<div class="detals_item">Площа: <span class="value">55.9 m</span></div>
+								<div class="detals_item">Тип: <span class="value">вторинний ринок</span></div>
+							</div>
+							<span class="block_date">Feb 08 2018</span>
+							<hr>
+							<div class="add_info">
+								<div class="block_author">from <span class="block_author_name">John Doe,</span><span class="block_author_rating">4,8/5</span></div>
+								<div class="buttons">
+									<a class="read_more button">Read more</>
+									<a class="yellow_button button">Take it</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="buttons">
+				<button class="show_more button">Більше</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="type_of_works">
+		<div class="container">
+			<h2 class="block_title">Категорії робіт</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+			<div class="wrap_section">
+				<div class="list_item">
+					<h3>Consectetur</h3>
+					<ul>
+						<li>Consectetur</li>
+						<li>Consectetur</li>
+						<li>Consectetur</li>
+					</ul>
+				</div>
+				<div class="list_item">
+					<h3>Consectetur</h3>
+					<ul>
+						<li>Consectetur</li>
+						<li>Consectetur</li>
+						<li>Consectetur</li>
+					</ul>
+				</div>
+				<div class="list_item">
+					<h3>Consectetur</h3>
+					<ul>
+						<li>Consectetur</li>
+						<li>Consectetur</li>
+						<li>Consectetur</li>
+					</ul>
+				</div>
+				<div class="list_item">
+					<h3>Consectetur</h3>
+					<ul>
+						<li>Consectetur</li>
+						<li>Consectetur</li>
+						<li>Consectetur</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- 	<section class="download_app">
+		<div class="container">
+			<h2 class="block_title">Завантажте наш додаток</h2>
+			<span class="sort_descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo quibusdam earum cumque aut cum ullam culpa id, veritatis, beatae esse voluptates.</span>
+			<div class="type_apps">
+				<a href="#" class="google_play"><span>Доступно в</span></a>
+				<a href="#" class="app_store"><span>Доступно в</span></a>
+			</div>
+		</div>
+	</section> -->
+
+	<footer class="main-footer" id="footer">
+		<div class="container">
+			<div class="main_footer">
+				<div class="wrap_section">
+					<div class="list_item">
+						<h3>Завдання</h3>
+						<ul>
+							<li><a href="#">Популярні</a></li>
+							<li><a href="#">В тренді</a></li>
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">Обрані</a></li>
+						</ul>
+					</div>
+					<div class="list_item">
+						<h3>Компанія</h3>
+						<ul>
+							<li><a href="#">Релізи</a></li>
+							<li><a href="#">Місія</a></li>
+							<li><a href="#">Стратегія</a></li>
+							<li><a href="#">Blog</a></li>
+						</ul>
+					</div>
+					<div class="list_item">
+						<h3>Дізнатися більше</h3>
+						<ul>
+							<li><a href="#">Підтримка</a></li>
+							<li><a href="#">Розробники</a></li>
+							<li><a href="#">Як це працює?</a></li>
+						</ul>
+					</div>
+					<div class="list_item">
+						<h3>Стежте за нами</h3>
+						<ul class="socials">
+							<li><a href="#" class="fb"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" class="inst"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#" class="tw"><i class="fab fa-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="policy">
+				<ul>
+					<li><a href="#">private policy</a></li>
+					<li><a href="#">terms & conditions</a></li>
+					<li><a href="#">copyring notifications</a></li>
+				</ul>
+				<span>&#169; 2017 PrototypeDev. All rights reserved.</span>
+			</div>
+		</div>
+	</footer>
+	<script src="js/vendors/jquery-1.12.2.min.js"></script>
+	<script src="js/vendors/custom-select.min.js"></script>
+	<script src="js/vendors/jquery.steps.min.js"></script>
+	<script src="js/vendors/slick.min.js"></script>
+	<script src="js/script00.js"></script>
+	<script>
+		if (typeof require !== 'undefined') {
+        var customSelect = require("custom-select").default;
+        console.log(123)
+	    }
+	    const mySelects = customSelect("select");
+	    console.log(mySelects);
+	</script>
+</body>
+</html>

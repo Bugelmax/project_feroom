@@ -1,0 +1,38 @@
+$pnb: 'ProximaNovaBold';
+$pneb: 'ProximaNovaExtrabold';
+$pnr: 'ProximaNovaRegular';
+$pnsb: 'ProximaNovaSemibold';
+
+$default-font-face: $pnr, sans-serif;
+
+$main_color: #2f2f2f;
+$yellow_color: #ffdd3e;
+$gray_color: #8f8f8f;
+$light_gray: #f1f1f1;
+$h_color: #353535;
+$w_color: #fff;
+$section_offers: #dadada;
+$offer_date: #6a6a6a;
+$blog_date: #6c6c6c;
+$author_raiting: #fb9107;
+$author_name: #464646;
+$section_about: #e3e3e3;
+$section_type_of_work: #2c2c2c;
+$placeholder_color: #939bb3;
+$blog_color: #313131;
+$title_color: #626262;
+
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin container(){
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 1em;
+}

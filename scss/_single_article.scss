@@ -1,0 +1,47 @@
+@import "vars";
+@import "fonts";
+@import "fontawesome";
+
+section{
+	&.article_body{
+		padding: 0 2em;
+		background-color: $section_about;
+		color: $blog_date;
+		.container{
+			padding: 0;
+		}
+		.wrap_article_body{
+			background-color: $w_color;
+			padding: 4em 3em;
+		}
+		.single_article_description_date{
+			font-size: 1.7em;
+		}
+		.wrap_tags{
+			padding: 2em 0;
+
+			.single_tag{
+				font-size: 1.4em;
+				padding: .5em 1em;
+				margin-right: 1em;
+				border: 1px solid $blog_date;
+				border-radius: .2em;
+			}
+		}
+		.single_article_description_long{
+			font-size: 1.8em;
+		}
+		.block_share{
+			.text_share{
+				font-size: 1.6em;
+				font-family: $pnsb;
+			}
+			.wrap_share{
+				padding: 1em 0;
+				.wrap_share_button{
+					padding: 0 1em;
+				}
+			}
+		}
+	}
+}
